@@ -2,9 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP</title>
+    <title>Index JSP</title>
 </head>
 <body>
-<a href="first">Servlet ref</a>
+<form action="firstServlet">
+    <p>
+        <label>
+            Enter some text <input type="text" name="textFromPage"/>
+        </label>
+        <button type="submit">Send</button>
+    </p>
+</form>
 </body>
 </html>
